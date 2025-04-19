@@ -4,8 +4,10 @@ QT += serialport
 QT += widgets
 QT += sql
 QT += charts
-
-
+QT += core gui network sql widgets
+QT += core gui sql network
+QT += core gui sql network widgets charts
+QT += serialport
 
 CONFIG += c++17
 

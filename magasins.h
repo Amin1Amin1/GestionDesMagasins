@@ -1,3 +1,4 @@
+// magasins.h
 #ifndef MAGASINS_H
 #define MAGASINS_H
 
@@ -26,6 +27,8 @@ public:
 
     //  Tri
     QSqlQueryModel* trier(const QString& critere);
+
+    QSqlQueryModel* rechercherParDate(const QDate& date);
 
 private:
     int id;
